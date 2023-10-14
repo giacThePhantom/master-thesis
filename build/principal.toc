@@ -1,0 +1,89 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{3}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Sleep}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Common features of sleep across organisms}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Sleep in humans}{5}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}REM sleep}{5}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}NREM sleep}{6}{subsubsection.1.1.2.2}%
+\contentsline {subsection}{\numberline {1.1.3}The honey bee as a model for sleep}{6}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Sleep in the honey bee}{7}{subsubsection.1.1.3.1}%
+\contentsline {section}{\numberline {1.2}The olfactory system of the bee}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Neuroanatomy}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Odor reception}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Antennal lobe}{8}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}Local interneurons}{8}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {1.2.3.2}Projection neurons}{9}{subsubsection.1.2.3.2}%
+\contentsline {section}{\numberline {1.3}Modelling neuronal circuitry}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Functional representation of a biological neuron}{10}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Spike trains}{10}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Synapses}{10}{subsubsection.1.3.1.2}%
+\contentsline {subsection}{\numberline {1.3.2}Modelling neurons - the leaky integrate and fire model}{11}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Current synapses}{12}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Conductance synapses}{12}{subsubsection.1.3.2.2}%
+\contentsline {subsection}{\numberline {1.3.3}Interacting neurons - spiking neural networks}{13}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Code availability}{14}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Objectives}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Revealing neural correlates of sleep in the olfactory system of the honey bee}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Developing a computational model of the antennal lobe}{15}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Materials and methods}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The model}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Architecture}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Olfactory receptors}{17}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Odors}{19}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Noise}{19}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Effect of other brain regions}{20}{subsubsection.3.1.2.3}%
+\contentsline {subsection}{\numberline {3.1.3}Neurons}{21}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Temperature}{22}{subsubsection.3.1.3.1}%
+\contentsline {subsection}{\numberline {3.1.4}Synapses}{22}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Connection between olfactory receptors and olfactory receptor neurons}{23}{subsubsection.3.1.4.1}%
+\contentsline {subsubsection}{\numberline {3.1.4.2}Excitatory synapses}{23}{subsubsection.3.1.4.2}%
+\contentsline {subsubsection}{\numberline {3.1.4.3}Inhibitory synapses}{23}{subsubsection.3.1.4.3}%
+\contentsline {section}{\numberline {3.2}Data analysis}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Extracting data from a simulation}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Neuron's activity}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Spike density matrix}{24}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Correlation matrices}{25}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Feature extraction}{25}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}Distribution features}{26}{subsubsection.3.2.5.1}%
+\contentsline {paragraph}{\numberline {3.2.5.1.1}Standard deviation}{26}{paragraph.3.2.5.1.1}%
+\contentsline {paragraph}{\numberline {3.2.5.1.2}Skewness}{26}{paragraph.3.2.5.1.2}%
+\contentsline {paragraph}{\numberline {3.2.5.1.3}Kurtosis}{26}{paragraph.3.2.5.1.3}%
+\contentsline {paragraph}{\numberline {3.2.5.1.4}Sample entropy}{26}{paragraph.3.2.5.1.4}%
+\contentsline {paragraph}{\numberline {3.2.5.1.5}Hurst exponent}{27}{paragraph.3.2.5.1.5}%
+\contentsline {paragraph}{\numberline {3.2.5.1.6}Detrended fluctuation analysis}{27}{paragraph.3.2.5.1.6}%
+\contentsline {subsubsection}{\numberline {3.2.5.2}Connectivity features}{27}{subsubsection.3.2.5.2}%
+\contentsline {paragraph}{\numberline {3.2.5.2.1}Betweenness centrality}{27}{paragraph.3.2.5.2.1}%
+\contentsline {paragraph}{\numberline {3.2.5.2.2}Transitivity}{27}{paragraph.3.2.5.2.2}%
+\contentsline {paragraph}{\numberline {3.2.5.2.3}Degree}{27}{paragraph.3.2.5.2.3}%
+\contentsline {paragraph}{\numberline {3.2.5.2.4}Efficiency}{27}{paragraph.3.2.5.2.4}%
+\contentsline {paragraph}{\numberline {3.2.5.2.5}Frobenius norm}{27}{paragraph.3.2.5.2.5}%
+\contentsline {chapter}{\numberline {4}Results}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Behavior of the components}{29}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Olfactory receptors}{29}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Temperature-dependent white noise}{29}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Correlated input}{29}{subsubsection.4.1.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Neurons}{31}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Synapses}{36}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Excitatory synapses}{38}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Inhibitory synapses}{38}{subsubsection.4.1.3.2}%
+\contentsline {section}{\numberline {4.2}Response to odours}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Awake state}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Adding the Poisson trains}{40}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Asleep state}{45}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Comparison between awake and asleep states}{47}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Deep learning in neuroscience}{61}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Spiking neural networks}{61}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Spiking neural networks in neuroscience}{62}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}The honey bee as a model for human sleep}{62}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Sleep in the antennal lobe}{63}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Neuronal correlates of sleep}{63}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Features of the system}{64}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Putative biological mechanisms}{66}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Reduction of inhibitory synapses' strength}{66}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Introduction of a correlated input}{66}{subsection.5.4.2}%
+\contentsline {chapter}{\numberline {6}Conclusions and future perspectives}{69}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusions}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Future perspectives}{}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Bibliography}{}{chapter.7}%

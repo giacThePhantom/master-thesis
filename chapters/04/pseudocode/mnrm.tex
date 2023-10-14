@@ -1,0 +1,40 @@
+\begin{algorithm}
+\DontPrintSemicolon
+\SetKwComment{comment}{$\%$}{}
+\SetKw{Int}{int}
+\SetKw{To}{to}
+\SetKw{Return}{return}
+\SetKw{Not}{not}
+\SetKw{Input}{Input}
+\SetKw{Output}{Output}
+\SetKwData{Item}{item}
+\SetKwFunction{Min}{min}
+\SetKwFunction{TitleFunction}{Modified Next Reaction Method (MNRM)}
+
+\caption{\protect\TitleFunction{}}
+\label{algo:mnrm}
+
+\Input: A spike probability event accompanied by the state change variable $V_\mu$, the propensity $a$, then the initial state $V_0$ and the simulation ending time $T_{\max}$.\;
+
+\Output: a trajectory of the membrane potetials, which is a collection of states $X(t)$ for time $0\le t\le T_{\max}$\;
+
+$t = 0$\;
+$V = V_0$\;
+
+$T = 0$\;
+generate a random number $r\sim norm(0,1)$\;
+$P = \ln\frac{1}{r}$\;
+compute $a$\;
+
+
+\While{$t<T_{\max}$}{
+	$\tau = \frac{1}{a}(P-T)$\;
+	$V = V+V_\mu$\;
+	$t = t+\tau$\;
+
+	generate a random number $r\sim norm(0,1)$\;
+	$P = P + \ln\frac{1}{r}$\;
+	compute new $a$\;
+}
+
+\end{algorithm}

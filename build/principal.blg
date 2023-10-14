@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ./build/principal.aux
+The style file: acm.bst
+Database file #1: bibliography/biblio.bib
+Warning--entry type for "pandas" isn't style-file defined
+--line 464 of file bibliography/biblio.bib
+Warning--to sort, need author or key in neuron-anatomy-schema
+Warning--to sort, need author or key in pre-synapses
+Warning--empty journal in sleep-correlates
+Warning--empty journal in snn-review
+Warning--empty journal in curbd
+Warning--empty journal in synchronization-processes
+Warning--empty journal in deep-learning-navigation
+You've used 64 entries,
+            2253 wiz_defined-function locations,
+            895 strings with 15992 characters,
+and the built_in function-call counts, 22248 in all, are:
+= -- 2067
+> -- 1351
+< -- 0
++ -- 564
+- -- 490
+* -- 2021
+:= -- 3750
+add.period$ -- 184
+call.type$ -- 64
+change.case$ -- 434
+chr.to.int$ -- 0
+cite$ -- 71
+duplicate$ -- 594
+empty$ -- 1561
+format.name$ -- 490
+if$ -- 4378
+int.to.chr$ -- 0
+int.to.str$ -- 64
+missing$ -- 58
+newline$ -- 313
+num.names$ -- 124
+pop$ -- 417
+preamble$ -- 1
+purify$ -- 373
+quote$ -- 0
+skip$ -- 358
+stack$ -- 0
+substring$ -- 1258
+swap$ -- 129
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 250
+warning$ -- 7
+while$ -- 198
+width$ -- 66
+write$ -- 613
+(There were 8 warnings)

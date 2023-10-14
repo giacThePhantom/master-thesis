@@ -1,0 +1,376 @@
+\begin{thebibliography}{10}
+
+\bibitem{pre-synapses}
+Static pulse model.
+\newblock
+  \url{https://genn-team.github.io/genn/documentation/4/html/d9/d74/classWeightUpdateModels_1_1StaticPulse.html}.
+\newblock Accessed: 2023-04-06.
+
+\bibitem{neuron-anatomy-schema}
+Neuron anatomy.
+\newblock \url{https://askabiologist.asu.edu/neuron-anatomy}, 2011.
+\newblock Accessed: 2023-04-06.
+
+\bibitem{rem-review}
+{\sc Abel, T., Havekes, R., Saletin, J.~M., and Walker, M.~P.}
+\newblock Sleep, plasticity and memory from molecules to whole-brain networks.
+\newblock {\em Current Biology 23}, 17 (Sept. 2013), R774--R788.
+
+\bibitem{bct}
+{\sc aestrivex}.
+\newblock Bctpy.
+\newblock \url{https://github.com/aestrivex/bctpy}, 2023.
+
+\bibitem{sleep-mammals}
+{\sc albrecht~p. vorster, and jan born}.
+\newblock sleep and memory in mammals, birds and invertebrates.
+\newblock {\em neuroscience biobehavioral reviews 50\/} (Mar. 2015), 103--119.
+
+\bibitem{deep-learning-olfaction}
+{\sc Barwich, A.-S., and Lloyd, E.~A.}
+\newblock More than meets the {AI}: The possibilities and limits of machine
+  learning in olfaction.
+\newblock {\em Frontiers in Neuroscience 16\/} (Sept. 2022).
+
+\bibitem{sleep-honeybee-consolidation}
+{\sc Beyaert, L., Greggers, U., and Menzel, R.}
+\newblock Honeybees consolidate navigation memory during sleep.
+\newblock {\em Journal of Experimental Biology 215}, 22 (Nov. 2012),
+  3981--3988.
+
+\bibitem{sws}
+{\sc Born, J.}
+\newblock Slow-wave sleep and the consolidation of long-term memory.
+\newblock {\em The World Journal of Biological Psychiatry 11}, sup1 (Jan.
+  2010), 16--21.
+
+\bibitem{deep-learning-in-neuroscience}
+{\sc Botvinick, M., Wang, J.~X., Dabney, W., Miller, K.~J., and Kurth-Nelson,
+  Z.}
+\newblock Deep reinforcement learning and its neuroscientific implications.
+\newblock {\em Neuron 107}, 4 (Aug. 2020), 603--616.
+
+\bibitem{deep-learning-cognitive-control}
+{\sc Botvinick, M.~M., and Cohen, J.~D.}
+\newblock The computational and neural basis of cognitive control: Charted
+  territory and new frontiers.
+\newblock {\em Cognitive Science 38}, 6 (July 2014), 1249--1285.
+
+\bibitem{pn-coding}
+{\sc Brill, M.~F., Meyer, A., and R\"{o}ssler, W.}
+\newblock It takes two{\textemdash}coincidence coding within the dual olfactory
+  pathway of the honeybee.
+\newblock {\em Frontiers in Physiology 6\/} (July 2015).
+
+\bibitem{lif-review}
+{\sc Burkitt, A.~N.}
+\newblock A review of the integrate-and-fire neuron model: I. homogeneous
+  synaptic input.
+\newblock {\em Biological Cybernetics 95}, 1 (Apr. 2006), 1--19.
+
+\bibitem{nrem-review}
+{\sc Dijk, D.-J.}
+\newblock Regulation and functional correlates of slow wave sleep.
+\newblock {\em J. Clin. Sleep Med. 5}, 2 Suppl (Apr. 2009), S6--15.
+
+\bibitem{genn}
+{\sc E., Y., J., T., and Nowotny, T.}
+\newblock Genn: a code generation framework for accelerated brain simulations,
+  2016.
+
+\bibitem{zstandard}
+{\sc Facebook}.
+\newblock Zstd.
+\newblock \url{https://github.com/facebook/zstd}, 2023.
+
+\bibitem{sleep}
+{\sc Falup‑Pecurariu, C., Ștefania Diaconu, Ț{\^{\i}}nț, D., and
+  Falup‑Pecurariu, O.}
+\newblock Neurobiology of sleep (review).
+\newblock {\em Experimental and Therapeutic Medicine 21}, 3 (Jan. 2021).
+
+\bibitem{bee-atlas}
+{\sc Flanagan, D., and Mercer, A.~R.}
+\newblock An atlas and 3-d reconstruction of the antennal lobes in the worker
+  honey bee, apis mellifera l. (hymenoptera : Apidae).
+\newblock {\em International Journal of Insect Morphology and Embryology 18},
+  2-3 (Jan. 1989), 145--159.
+
+\bibitem{local-neurons}
+{\sc Fonta, C., Sun, X.-J., and Masson, C.}
+\newblock Morphology and spatial distribution of bee antennal lobe
+  interneurones responsive to odours.
+\newblock {\em Chemical Senses 18}, 2 (1993), 101--119.
+
+\bibitem{generating-poisson-train}
+{\sc Gal{\'{a}}n, R.~F., Fourcaud-Trocm{\'{e}}, N., Ermentrout, G.~B., and
+  Urban, N.~N.}
+\newblock Correlation-induced synchronization of oscillations in olfactory bulb
+  neurons.
+\newblock {\em The Journal of Neuroscience 26}, 14 (Apr. 2006), 3646--3655.
+
+\bibitem{noise-in-pn}
+{\sc Galizia, C.~G.}
+\newblock Olfactory coding in the insect brain: data and conjectures.
+\newblock {\em European Journal of Neuroscience 39}, 11 (Apr. 2014),
+  1784--1795.
+
+\bibitem{neuronal-dynamics}
+{\sc Gerstner, W., Kistler, W.~M., Naud, R., and Paninski, L.}
+\newblock {\em Neuronal dynamics}.
+\newblock Cambridge University Press, Cambridge, England, July 2014.
+
+\bibitem{memory-acquisition-al}
+{\sc Giurfa, M.}
+\newblock Cognitive neuroethology: dissecting non-elemental learning in a
+  honeybee brain.
+\newblock {\em Current Opinion in Neurobiology 13}, 6 (Dec. 2003), 726--735.
+
+\bibitem{slow-wave-synchronization}
+{\sc Guo, D., Thomas, R.~J., Liu, Y., Shea, S.~A., Lu, J., and Peng, C.-K.}
+\newblock Slow wave synchronization and sleep state transitions.
+\newblock {\em Scientific Reports 12}, 1 (May 2022).
+
+\bibitem{sleep-correlates}
+{\sc Haase, S. M. L. D. T. U. H.~A.}
+\newblock Neuronal correlates of sleep in the olfactory system of the honey
+  bee.
+
+\bibitem{numpy}
+{\sc Harris, C.~R., Millman, K.~J., van~der Walt, S.~J., Gommers, R., Virtanen,
+  P., Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N.~J., Kern, R.,
+  Picus, M., Hoyer, S., van Kerkwijk, M.~H., Brett, M., Haldane, A., del
+  R{\'{i}}o, J.~F., Wiebe, M., Peterson, P., G{\'{e}}rard-Marchant, P.,
+  Sheppard, K., Reddy, T., Weckesser, W., Abbasi, H., Gohlke, C., and Oliphant,
+  T.~E.}
+\newblock Array programming with {NumPy}.
+\newblock {\em Nature 585}, 7825 (Sept. 2020), 357--362.
+
+\bibitem{cognitive-neuroscience-of-sleep}
+{\sc Hobson, J.~A., and Pace-Schott, E.~F.}
+\newblock The cognitive neuroscience of sleep: neuronal systems, consciousness
+  and learning.
+\newblock {\em Nature Reviews Neuroscience 3}, 9 (Sept. 2002), 679--693.
+
+\bibitem{matplotlib}
+{\sc Hunter, J.~D.}
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in Science \& Engineering 9}, 3 (2007), 90--95.
+
+\bibitem{bee-extinction-memory}
+{\sc Hussaini, S.~A., Bogusch, L., Landgraf, T., and Menzel, R.}
+\newblock Sleep deprivation affects extinction but not acquisition memory in
+  honeybees.
+\newblock {\em Learning \& Memory 16}, 11 (Oct. 2009), 698--705.
+
+\bibitem{neuronal-correlates-sleep-bee}
+{\sc Kaiser, W., and Steiner-Kaiser, J.}
+\newblock Neuronal correlates of sleep, wakefulness and arousal in a diurnal
+  insect.
+\newblock {\em Nature 301}, 5902 (Feb. 1983), 707--709.
+
+\bibitem{deep-learning-audition}
+{\sc Kell, A.~J., Yamins, D.~L., Shook, E.~N., Norman-Haignere, S.~V., and
+  McDermott, J.~H.}
+\newblock A task-optimized neural network replicates human auditory behavior,
+  predicts brain responses, and reveals a cortical processing hierarchy.
+\newblock {\em Neuron 98}, 3 (May 2018), 630--644.e16.
+
+\bibitem{betweenness}
+{\sc Kintali, S.}
+\newblock Betweenness centrality : Algorithms and lower bounds, 2008.
+
+\bibitem{waggle-sleep-deprivation}
+{\sc Klein, B.~A., Klein, A., Wray, M.~K., Mueller, U.~G., and Seeley, T.~D.}
+\newblock Sleep deprivation impairs precision of waggle dance signaling in
+  honey bees.
+\newblock {\em Proceedings of the National Academy of Sciences 107}, 52 (Dec.
+  2010), 22705--22709.
+
+\bibitem{model-with-feedback}
+{\sc Lazar, A.~A., Liu, T., and Yeh, C.-H.}
+\newblock The functional logic of odor information processing in the drosophila
+  antennal lobe.
+\newblock {\em {PLOS} Computational Biology 19}, 4 (Apr. 2023), e1011043.
+
+\bibitem{snn-review}
+{\sc Malcolm, K., and Casco-Rodriguez, J.}
+\newblock A comprehensive review of spiking neural networks: Interpretation,
+  optimization, efficiency, and best practices.
+
+\bibitem{modified-next-reaction-method}
+{\sc Marchetti, L., Priami, C., and Thanh, V.~H.}
+\newblock {\em Simulation Algorithms for Computational Systems Biology}.
+\newblock Springer International Publishing, 2017.
+
+\bibitem{matlab}
+{\sc MATLAB}.
+\newblock {\em version 9.13.0 (R2022b)}.
+\newblock The MathWorks Inc., Natick, Massachusetts, 2022.
+
+\bibitem{deep-learning-motor-control}
+{\sc Merel, J., Botvinick, M., and Wayne, G.}
+\newblock Hierarchical motor control in mammals and machines.
+\newblock {\em Nature Communications 10}, 1 (Dec. 2019).
+
+\bibitem{docker}
+{\sc Merkel, D.}
+\newblock Docker: lightweight linux containers for consistent development and
+  deployment.
+\newblock {\em Linux journal 2014}, 239 (2014), 2.
+
+\bibitem{data-driven-antennal-lobe-model}
+{\sc Nowotny, T., Stierle, J.~S., Galizia, C.~G., and Szyszka, P.}
+\newblock Data-driven honeybee antennal lobe model suggests how stimulus-onset
+  asynchrony can aid odour segregation.
+\newblock {\em Brain Research 1536\/} (Nov. 2013), 119--134.
+
+\bibitem{cuda}
+{\sc NVIDIA, Vingelmann, P., and Fitzek, F.~H.}
+\newblock Cuda, release: 10.2.89, 2020.
+
+\bibitem{pandas}
+{\sc pandas~development team, T.}
+\newblock pandas-dev/pandas: Pandas, Feb. 2020.
+
+\bibitem{olfactory-coding-honeybee}
+{\sc Paoli, M., and Galizia, G.~C.}
+\newblock Olfactory coding in honeybees.
+\newblock {\em Cell and Tissue Research 383}, 1 (Jan. 2021), 35--58.
+
+\bibitem{curbd}
+{\sc Perich, M.~G., Arlt, C., Soares, S., Young, M.~E., Mosher, C.~P., Minxha,
+  J., Carter, E., Rutishauser, U., Rudebeck, P.~H., Harvey, C.~D., and Rajan,
+  K.}
+\newblock Inferring brain-wide interactions using data-constrained recurrent
+  neural network models.
+
+\bibitem{sleep-cognitive}
+{\sc Poe, G.~R., Walsh, C.~M., and Bjorness, T.~E.}
+\newblock Cognitive neuroscience of sleep.
+\newblock In {\em Progress in Brain Research}. Elsevier, 2010, pp.~1--19.
+
+\bibitem{lif-schema}
+{\sc Rozenberg, M.~J., Schneegans, O., and Stoliar, P.}
+\newblock An ultra-compact leaky-integrate-and-fire model for building spiking
+  neural networks.
+\newblock {\em Scientific Reports 9}, 1 (July 2019).
+
+\bibitem{neuromorphic-robotic}
+{\sc Sandamirskaya, Y., Kaboli, M., Conradt, J., and Celikel, T.}
+\newblock Neuromorphic computing hardware and neural architectures for
+  robotics.
+\newblock {\em Science Robotics 7}, 67 (June 2022).
+
+\bibitem{bee-sleep-description}
+{\sc Sauer, S., Kinkelin, M., Herrmann, E., and Kaiser, W.}
+\newblock The dynamics of sleep-like behaviour in honey bees.
+\newblock {\em Journal of Comparative Physiology A: Sensory, Neural, and
+  Behavioral Physiology 189}, 8 (Aug. 2003), 599--607.
+
+\bibitem{bee-geosmin}
+{\sc Scarano, F., Suresh, M.~D., Tiraboschi, E., Cabirol, A., Nouvian, M.,
+  Nowotny, T., and Haase, A.}
+\newblock Geosmin suppresses defensive behaviour and elicits unusual neural
+  responses in honey bees.
+\newblock {\em Scientific Reports 13}, 1 (Mar. 2023).
+
+\bibitem{nolds}
+{\sc Sch\"{o}lzel, C.}
+\newblock Nonlinear measures for dynamical systems, 2019.
+
+\bibitem{sleep-across-species}
+{\sc Siegel, J.~M.}
+\newblock Sleep viewed as a state of adaptive inactivity.
+\newblock {\em Nature Reviews Neuroscience 10}, 10 (Aug. 2009), 747--753.
+
+\bibitem{temperature}
+{\sc Sterratt, D.~C.}
+\newblock Q10: The effect of temperature on ion channel kinetics.
+\newblock In {\em Encyclopedia of Computational Neuroscience}. Springer New
+  York, 2014, pp.~1--3.
+
+\bibitem{gaba-ventral}
+{\sc Takata, Y., Oishi, Y., Zhou, X.-Z., Hasegawa, E., Takahashi, K., Cherasse,
+  Y., Sakurai, T., and Lazarus, M.}
+\newblock Sleep and wakefulness are controlled by ventral medial midbrain/pons
+  {GABAergic} neurons in mice.
+\newblock {\em The Journal of Neuroscience 38}, 47 (Oct. 2018), 10080--10092.
+
+\bibitem{synchronization-processes}
+{\sc Timofeev, I., Bazhenov, M., Seigneur, J., and Sejnowski, T.}
+\newblock Neuronal synchronization and thalamocortical rhythms in sleep, wake
+  and epilepsy.
+
+\bibitem{scipy}
+{\sc Virtanen, P., Gommers, R., Oliphant, T.~E., Haberland, M., Reddy, T.,
+  Cournapeau, D., Burovski, E., Peterson, P., Weckesser, W., Bright, J., {van
+  der Walt}, S.~J., Brett, M., Wilson, J., Millman, K.~J., Mayorov, N., Nelson,
+  A. R.~J., Jones, E., Kern, R., Larson, E., Carey, C.~J., Polat, {\.I}., Feng,
+  Y., Moore, E.~W., {VanderPlas}, J., Laxalde, D., Perktold, J., Cimrman, R.,
+  Henriksen, I., Quintero, E.~A., Harris, C.~R., Archibald, A.~M., Ribeiro,
+  A.~H., Pedregosa, F., {van Mulbregt}, P., and {SciPy 1.0 Contributors}}.
+\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+  Python}.
+\newblock {\em Nature Methods 17\/} (2020), 261--272.
+
+\bibitem{fpa}
+{\sc Voorhees, E.~M.}
+\newblock Implementing agglomerative hierarchic clustering algorithms for use
+  in document retrieval.
+\newblock {\em Information Processing \& Management 22}, 6 (Jan. 1986),
+  465--476.
+
+\bibitem{ann-vs-snn}
+{\sc Wang, X., Lin, X., and Dang, X.}
+\newblock Supervised learning in spiking neural networks: A review of
+  algorithms and evaluations.
+\newblock {\em Neural Networks 125\/} (May 2020), 258--280.
+
+\bibitem{snn-training}
+{\sc Wang, X., Lin, X., and Dang, X.}
+\newblock Supervised learning in spiking neural networks: A review of
+  algorithms and evaluations.
+\newblock {\em Neural Networks 125\/} (May 2020), 258--280.
+
+\bibitem{seaborn}
+{\sc Waskom, M.~L.}
+\newblock seaborn: statistical data visualization.
+\newblock {\em Journal of Open Source Software 6}, 60 (2021), 3021.
+
+\bibitem{deep-learning-navigation}
+{\sc Whittington, J.~C., Muller, T.~H., Mark, S., Chen, G., Barry, C., Burgess,
+  N., and Behrens, T.~E.}
+\newblock The tolman-eichenbaum machine: Unifying space and relational memory
+  through generalisation in the hippocampal formation.
+
+\bibitem{gaba}
+{\sc Wu, K., and Lu, W.}
+\newblock {GABAergic} synaptic transmission and plasticity oscillate across
+  sleep and wake.
+\newblock {\em Neural Regeneration Research 18}, 12 (Apr. 2023), 2647--2648.
+
+\bibitem{insomnia}
+{\sc Xiang, T., Liao, J., Cai, Y., Fan, M., Li, C., Zhang, X., Li, H., Chen,
+  Y., and Pan, J.}
+\newblock Impairment of {GABA} inhibition in insomnia disorders: Evidence from
+  the peripheral blood system.
+\newblock {\em Frontiers in Psychiatry 14\/} (Feb. 2023).
+
+\bibitem{application-snns}
+{\sc Yamazaki, K., Vo-Ho, V.-K., Bulsara, D., and Le, N.}
+\newblock Spiking neural networks and their applications: A review.
+\newblock {\em Brain Sciences 12}, 7 (June 2022), 863.
+
+\bibitem{deep-learning-vision}
+{\sc Yamins, D. L.~K., and DiCarlo, J.~J.}
+\newblock Using goal-driven deep learning models to understand sensory cortex.
+\newblock {\em Nature Neuroscience 19}, 3 (Feb. 2016), 356--365.
+
+\bibitem{bee-odor-retention}
+{\sc Zwaka, H., Bartels, R., Gora, J., Franck, V., Culo, A., G\"{o}tsch, M.,
+  and Menzel, R.}
+\newblock Context odor presentation during sleep enhances memory in honeybees.
+\newblock {\em Current Biology 25}, 21 (Nov. 2015), 2869--2874.
+
+\end{thebibliography}

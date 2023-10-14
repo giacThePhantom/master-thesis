@@ -1,0 +1,58 @@
+\graphicspath{{chapters/07_conclusions/}}
+\chapter{Conclusions and future perspectives}
+
+\section{Conclusions}
+The work presented here involved building a spiking neural network to model part of the olfactory system of the honeybee.
+The antennal lobe is fundamental in the processing of olfactory information and the formation of memories in the honeybee.
+Because of its role in memory formation, its behavior during sleep has been explored.
+Starting from a model of the waking antennal lobe, capable of coding correctly for odors, a new model for the sleeping state has been built by tweaking the parameters of the component of the awake system.\\
+
+The resulting system has been compared with a set of experimental results to assess its validity.
+The model provides several advantages over the experimental results, not being constrained by physical limitation, the whole antennal lobe could be simulated and the activity of the projection neurons could be recorded at any arbitrary frequency.
+The two drivers for the validity assessment of the model have been:
+
+\begin{itemize}
+  \item The correlation matrices of projection neurons activity averaged across glomeruli.
+  \item The connectivity and activity distribution features extracted from a time series simulated of the model.
+\end{itemize}
+
+The model's parameters have been tuned to match these two sets of measures.\\
+
+This has led to the identification of two major drivers of the increased correlation and coupling in the sleeping antennal lobe:
+
+\begin{itemize}
+  \item A decrease in the inhibitory synapses' strength.
+  \item An introduction of a correlated input to the system, in the form of Poisson trains of spikes.
+\end{itemize}
+
+The role of the correlated input was to increase the overall correlation of the activity of projection neurons.
+Its effect on the waking system is remarkable: without reducing the inhibitory synapses' strength, this type of correlated input pattern causes the inhibitory ability of the local neurons to completely shut off the activity of the projection neurons.
+Reducing inhibitory synapses reduced the effect of the local interneuron on the activity of the projection neurons, making it more similar to the one observed in the olfactory receptor neuron population.
+If the reduction of the inhibitory synapses' strength during sleep is well documented in the literature, the origin of the correlated input still needs to be further explored.
+This input could be due to global effects which are well documented in mice and humans (\cite{sws} and \cite{synchronization-processes}) but not yet in insects or to components not considered for this model, such as gap junctions or local field potentials.
+Another putative mechanism that could provide this level of correlated input is a feedback loop in the system, as it has been done in \cite{model-with-feedback} in \textit{Drosophila}.
+The parameters of the correlated input used in the model have been found by manual exploration, such as to maximize their effect on the correlation of the activity of the projection neurons.
+Several simulations have been run at different reduction factors of the inhibitory synapses' strength, identifying the sleep state as the one having features distribution separation from the awake state most similar to the experimental data.
+This state corresponded to the one where inhibitory synapses' strength has been reduced by a factor of $4$, with the most similar features being:
+
+\begin{itemize}
+  \item Skewness.
+  \item Hurst exponent.
+  \item Detrended fluctuation analysis.
+  \item Degree.
+  \item Efficiency.
+\end{itemize}
+
+The match is not perfect, suggesting that the actual reduction factor lies between $4$ and $10$.
+
+\section{Future perspectives}
+The model presented here is a first step in the exploration of the sleeping state of the antennal lobe and can be expanded in a number of directions.
+The first one is to explore if the sleep state is still able to code for odors: it has been documented that context odor presentation during sleep enhances memory in honeybees \cite{bee-odor-retention}.
+This suggests that the antennal lobe is still able to code for odors during sleep, but this has not been explored in the model.
+Some changes in the coding capabilities are expected, but the system should still be able to produce a response for certain odor stimuli, even if with a weaker activity pattern.\\
+
+Even though the model has been able to reproduce the correlation matrices of the experimental data, the exploratory nature of the work has not allowed to explore in detail the parameter space.
+This could be done by training a classification algorithm such as random forest as done in \cite{sleep-correlates} to gauge the performance of the model.\\
+
+Automatic learning could be introduced using the trained classification algorithm as a fitness function for the parameters of the model.
+This learning could be performed using classical machine learning techniques such as gradient descent or more biologically plausible ones \cite{snn-training} such as spike timing dependent plasticity (STDP).

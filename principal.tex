@@ -1,0 +1,24 @@
+\documentclass[11pt, twoside]{book}
+\input{prefix}  % Place all packages and function definitions in the prefix file
+
+\begin{document}
+    % Do not add page numbers
+    \pagenumbering{gobble}
+    \input{title_page/title_page}
+
+    \tableofcontents
+
+    \pagestyle{fancy}
+    \pagenumbering{arabic}
+    \input{chapters/01/abstract}
+    \input{chapters/02/introduction}
+    \input{chapters/03/objectives}
+    \input{chapters/04/materials_and_methods}
+    \input{chapters/05/results}
+    \input{chapters/06/discussion}
+    \input{chapters/07/conclusions}
+    \pagenumbering{gobble}
+    \bibliographystyle{acm}
+    \bibliography{bibliography/biblio}
+
+\end{document}

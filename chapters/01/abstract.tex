@@ -1,0 +1,31 @@
+\graphicspath{{chapters/01_abstract}}
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Sleep is a naturally recurring, reversible state of reduced consciousness and sensory perception characterized by altered brain wave patterns and distinctive physiological and behavioural changes.
+It is a vital physiological process for cognitive functioning, emotional regulation and overall health in many organisms.
+Despite its importance, the function of sleep needs further investigation.
+Invertebrates such as the honey bee (\textit{Apis mellifera}) have recently seen a surge in interest as a model organism for sleep research.
+Despite the absence of a typical mammalian EEG signal in insects, the honey bee has been shown to exhibit sleep-like behaviour with the presence of a specific body posture, an increased threshold to arousing stimulation and the presence of a rebound in the sleep-like state that occurs as a consequence of sleep deprivation.
+The honey bee and other insects offer several advantages as models: their nervous system is relatively simple, they are easy to maintain, have a short life cycle and are equipped with a genetic toolbox \cite{sleep-mammals}.
+
+The work presented in this thesis focuses on the dynamics of the antennal lobe, a part of the olfactory system of the honey bee which will be modeled as a recurrent spiking neural network to reveal what happens in this brain region during sleep.
+The antennal lobe of the honey bee is composed of three populations of neurons: the olfactory receptor neurons (ORN), the input of the system, the projection neurons (PN), which communicate with higher-order brain regions and the local neurons (LN), which inhibit the activity of the PNs \cite{olfactory-coding-honeybee}.
+As previous experimental results showed, there is no significant difference in the firing rate of the PNs between the sleep-like state and the awake state.
+However, changes can be seen at a network level \cite{sleep-correlates}.
+This seems to support that the connectivity of the antennal lobe changes during sleep, increasing the correlation between glomeruli, the functional units of the antennal lobe responsible for processing odour information.
+
+Recent advances in the field of computational neuroscience have allowed the development of biologically realistic models of the brain \cite{deep-learning-in-neuroscience}.
+The antennal lobe is modeled using a spiking neural network \cite{snn-review} with noisy leaky integrate and fire neurons \cite{lif-review} and conductance-based synapses, expanding on a previous work which explored with success the odour response of the system \cite{bee-geosmin}.
+The computational system is built such that it replicates the biological behaviour, avoiding some limitations of experimental methods, allowing to record neuronal activity at a higher frequency and to observe the dynamics of the whole antennal lobe.
+
+The major change in the network's activity during sleep is an increase of correlation in the activity of projection neurons of different glomeruli with respect to the awake state \cite{sleep-correlates}.
+The flexibility of the computational model has allowed to explore what could be the cause of this increase in correlation.
+In particular, I propose that this increase in correlation is due to a combination of two factors.
+Firstly there is a reduction in the synaptic strength of the inhibitory synapses both between local neurons and between local and projection neurons.
+This decrease decouples the system and causes the activity of the projection neurons to be less dependent on the activity of the local neurons, increasing their correlation.
+This decrease in inhibition is consistent with other studies: GABAergic synapses are known to be involved in the regulation of sleep and their strength to be reduced during this state \cite{gaba}.
+Moreover, it appears that during sleep a correlated input is fed to the antennal lobe.
+This input is not present during the awake state and could be analogous to the slow wave synchronization observed in the mammalian brain during sleep \cite{slow-wave-synchronization}
+
+In conclusion, this thesis takes advantage of new computational techniques to propose a mechanism that regulates the change of activity in the antennal lobe of the honey bee during sleep.
